@@ -1,0 +1,8 @@
+{
+  "baseFileDirectory": "./",
+  "fileWrittenToDirectory": "./",
+  "defaultStopCharacter": "&",
+  "defaultTimeNeededForNewCharacter": 0.09,
+  "defaultBaseFile": "",
+  "defaultFileWrittenTo": ""
+}

@@ -3,8 +3,8 @@ import json
 
 from miscellaneous.colors import *
 
-SCREEN_LENGTH = 2200
-SCREEN_HEIGHT = 1300
+SCREEN_LENGTH = 860
+SCREEN_HEIGHT = 750
 
 BACKGROUND_COLOR = light_gray
 
@@ -24,8 +24,13 @@ LARGE_FONT = [FONT_NAME, 20]
 
 # Loading JSON File
 configuration_file_path = json.load(open("configurations/current_configuration.json", "r")).get("currentConfigurationFile")
-configuration_file = json.load(open(configuration_file_path, "r"))
+configuration_file = json.load(open(configuration_file_path))
 
 BASE_FILE_DIRECTORY = configuration_file.get("baseFileDirectory")
-FILE_WRITTEN_TO_DIRECTORY = BASE_FILE_DIRECTORY
+FILE_WRITTEN_TO_DIRECTORY = configuration_file.get("fileWrittenToDirectory")
+DEFAULT_STOP_CHARACTER = configuration_file.get("defaultStopCharacter")
+DEFAULT_TIME_NEEDED_FOR_NEW_CHARACTER = configuration_file.get("defaultTimeNeededForNewCharacter")
+DEFAULT_BASE_FILE = configuration_file.get("defaultBaseFile")
+DEFAULT_FILE_WRITTEN_TO = configuration_file.get("defaultFileWrittenTo")
+
 

@@ -129,5 +129,15 @@ def get_string(items):
 
     return return_value
 
+def get_string_without_valid_chs(string, valid_chs):
+    """:returns: String; the string without the invalid chs"""
+
+    return_value = ""
+
+    for ch in string:
+        if valid_chs.__contains__(ch):
+            return_value += ch
+
+    return return_value
 
 
