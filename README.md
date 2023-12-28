@@ -1,7 +1,5 @@
 Finished Development: 01/04/2023
 
-First 3 Years of Programming
-
 # Summary
 This was an application I made for my YouTube channel. At the time is really annoying to record me doing coding tutorials.
 The typing from the keyboard would sometimes be picked up by the microphone, which did not sound professional. The other
@@ -15,6 +13,13 @@ of editors supported this kind of functionality because they only read the file 
 constantly. Thankfully, VS Code accomplished what I wanted. I could type stop characters: '&' into the file, so the program 
 would stop typing until I told it to continue typing again. The stop characters allowed me to give some explanation for a
 bit before I continued "typing."
+
+# Program Images
+## Choosing the files screen
+![Main Screen](documentation/Main%20Screen.png)
+
+## Controlling the typing screen
+![Typing Screen](documentation/Typing%20Screen.png)
 
 # Running the Program
 Run the 'main.py' file from the root directory of this project. The application's start screen allows you to select two 
